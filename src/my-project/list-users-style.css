@@ -1,0 +1,27 @@
+.tout {
+    background: linear-gradient(135deg, #FDD835 0%, #F5A623 50%, #F78E1E 51%, #E45B1B 100%);
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(135deg, #FDD835 0%, #F5A623 50%, #F78E1E 51%, #E45B1B 100%);
+}
+
+tbody tr:nth-child(even) {
+    background: linear-gradient(135deg, #FDD835 0%, #F5A623 50%, #F78E1E 51%, #E45B1B 100%);
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
